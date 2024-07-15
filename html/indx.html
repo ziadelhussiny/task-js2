@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="dscription" content="Show Food" />
+      <title>Yummy</title>
+      <link rel="shortcut icon" href="./icons/img1.png" type="image/x-icon">
+      <link rel="stylesheet" href="../style/all.min.css" />
+      <link rel="stylesheet" href="../style/bootstrap.min.css" />
+      <link rel="stylesheet" href="../style/style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   </head>
+   <body>
+      <!-- --------------------- Start Aside --------------------- -->
+      <aside class="d-flex">
+         <div class="aside-data d-flex flex-column justify-content-between py-3 ps-3">
+            <ul class="aside-links">
+               <li><a >Search</a></li>
+               <li><a>Categories</a></li>
+               <li><a>Area</a></li>
+               <li><a>Ingredients</a></li>
+               <li><a>Contact Us</a></li>
+            </ul>
+
+            <div class="copy-right mb-3">
+               <ul class="list-inline mb-0 text-muted">
+                  <li class="list-inline-item"><i class="fab fa-facebook-f"></i></li>
+                  <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                  <li class="list-inline-item">
+                     <i class="fa-sharp fa-solid fa-globe"></i>
+                  </li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="right-icons bg-white vstack align-items-center justify-content-between">
+            <img src="../icons/img1.png" alt="icons" />
+
+            <i class="fas fa-bars fa-2xl cp" id="menuIcon"></i>
+
+            <div class="d-flex flex-column">
+               <i class="fa-solid fa-globe py-2"></i>
+               <i class="fa-solid fa-share-nodes"></i>
+            </div>
+         </div>
+      </aside>
+      <!-- --------------------- End Aside --------------------- -->
+
+      <!-- --------------------- Start Section --------------------- -->
+      <section>
+         <div
+            class="loading z-top position-fixed w-100 h-100 start-0 end-0 bg-dark bg-opacity-75 d-flex align-items-center justify-content-center"
+         >
+            <span class="loader"></span>
+         </div>
+
+         <div class="container w-75 mx-auto text-white py-4 content" id="content"></div>
+      </section>
+      <!-- --------------------- End Section --------------------- -->
+
+      <script src="../JS/jquery-3.6.1.min.js"></script>
+
+      <script src="../JS/JS.JS"></script>
+      <script src="../JS/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
